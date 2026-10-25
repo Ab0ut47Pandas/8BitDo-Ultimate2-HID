@@ -1,0 +1,140 @@
+{
+  "outcome": "complete",
+  "condition": "hid-steam-patch",
+  "repetition": 1,
+  "seconds": 60.0002427,
+  "sampler_iterations": 239887,
+  "sampler_target_hz": 4000,
+  "foreground_checks": 599,
+  "foreground_matches": 599,
+  "slots": [
+    {
+      "slot": 0,
+      "initially_connected": true,
+      "changed_rows": 10347,
+      "disconnects": 0,
+      "axes": [
+        {
+          "axis": "lx",
+          "unique": 6554,
+          "min": -32767,
+          "max": 32767
+        },
+        {
+          "axis": "ly",
+          "unique": 6469,
+          "min": -32767,
+          "max": 32767
+        },
+        {
+          "axis": "rx",
+          "unique": 6910,
+          "min": -32767,
+          "max": 32767
+        },
+        {
+          "axis": "ry",
+          "unique": 7120,
+          "min": -32767,
+          "max": 32767
+        }
+      ]
+    },
+    {
+      "slot": 1,
+      "initially_connected": false,
+      "changed_rows": 0,
+      "disconnects": 0,
+      "axes": [
+        {
+          "axis": "lx",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "ly",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "rx",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "ry",
+          "unique": 0,
+          "min": null,
+          "max": null
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "initially_connected": false,
+      "changed_rows": 0,
+      "disconnects": 0,
+      "axes": [
+        {
+          "axis": "lx",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "ly",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "rx",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "ry",
+          "unique": 0,
+          "min": null,
+          "max": null
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "initially_connected": false,
+      "changed_rows": 0,
+      "disconnects": 0,
+      "axes": [
+        {
+          "axis": "lx",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "ly",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "rx",
+          "unique": 0,
+          "min": null,
+          "max": null
+        },
+        {
+          "axis": "ry",
+          "unique": 0,
+          "min": null,
+          "max": null
+        }
+      ]
+    }
+  ]
+}

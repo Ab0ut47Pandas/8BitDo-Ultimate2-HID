@@ -1,0 +1,119 @@
+{
+  "outside_steam_xinput_slots": [],
+  "devices": [
+    {
+      "vid": "2dc8",
+      "pid": "6012",
+      "bcd_device": 1,
+      "product": "8BitDo Ultimate 2 Wireless Controller for PC",
+      "caps_status": "00110000",
+      "caps": {
+        "Usage": 5,
+        "UsagePage": 1,
+        "InputReportByteLength": 34,
+        "OutputReportByteLength": 5,
+        "FeatureReportByteLength": 0,
+        "NumberLinkCollectionNodes": 1,
+        "NumberInputButtonCaps": 1,
+        "NumberInputValueCaps": 8,
+        "NumberInputDataIndices": 32,
+        "NumberOutputButtonCaps": 0,
+        "NumberOutputValueCaps": 1,
+        "NumberOutputDataIndices": 1,
+        "NumberFeatureButtonCaps": 0,
+        "NumberFeatureValueCaps": 0,
+        "NumberFeatureDataIndices": 0
+      },
+      "value_caps": [
+        {
+          "usage_page": 1,
+          "report_id": 1,
+          "bit_size": 4,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": 7,
+          "usage_min": 57,
+          "usage_max": 57,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 1,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": 255,
+          "usage_min": 53,
+          "usage_max": 53,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 1,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": 255,
+          "usage_min": 50,
+          "usage_max": 50,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 1,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": 255,
+          "usage_min": 49,
+          "usage_max": 49,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 1,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": 255,
+          "usage_min": 48,
+          "usage_max": 48,
+          "is_range": false
+        },
+        {
+          "usage_page": 2,
+          "report_id": 1,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": 255,
+          "usage_min": 197,
+          "usage_max": 197,
+          "is_range": false
+        },
+        {
+          "usage_page": 2,
+          "report_id": 1,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": 255,
+          "usage_min": 196,
+          "usage_max": 196,
+          "is_range": false
+        },
+        {
+          "usage_page": 65280,
+          "report_id": 1,
+          "bit_size": 8,
+          "report_count": 23,
+          "logical_min": 0,
+          "logical_max": 1,
+          "usage_min": 32,
+          "usage_max": 32,
+          "is_range": false
+        }
+      ]
+    }
+  ]
+}

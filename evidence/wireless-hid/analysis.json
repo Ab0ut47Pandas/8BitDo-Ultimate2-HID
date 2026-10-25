@@ -1,0 +1,309 @@
+{
+  "condition": "hid-wireless",
+  "repetition": 1,
+  "recorded_condition_label": "hid-wireless",
+  "recorded_repetition_label": 1,
+  "duration_seconds": 120.000052,
+  "foreground_fraction": 1.0,
+  "steam_sampler_hz": 3999.6149335001955,
+  "windows_attach_delay_ms": 22.3813,
+  "disconnects": 0,
+  "operator_excluded": false,
+  "steam_slot": 0,
+  "steam": {
+    "rows": 14246,
+    "axes": {
+      "lx": {
+        "unique": 255,
+        "min": -32767,
+        "max": 32767,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            257,
+            251
+          ],
+          [
+            256,
+            1
+          ],
+          [
+            386,
+            1
+          ],
+          [
+            385,
+            1
+          ]
+        ]
+      },
+      "ly": {
+        "unique": 256,
+        "min": -32767,
+        "max": 32767,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            257,
+            252
+          ],
+          [
+            256,
+            1
+          ],
+          [
+            128,
+            1
+          ],
+          [
+            386,
+            1
+          ]
+        ]
+      },
+      "rx": {
+        "unique": 255,
+        "min": -32767,
+        "max": 32767,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            257,
+            251
+          ],
+          [
+            256,
+            1
+          ],
+          [
+            386,
+            1
+          ],
+          [
+            385,
+            1
+          ]
+        ]
+      },
+      "ry": {
+        "unique": 256,
+        "min": -32767,
+        "max": 32767,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            257,
+            252
+          ],
+          [
+            256,
+            1
+          ],
+          [
+            128,
+            1
+          ],
+          [
+            386,
+            1
+          ]
+        ]
+      },
+      "lt": {
+        "unique": 214,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            180
+          ],
+          [
+            2,
+            29
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "rt": {
+        "unique": 196,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            151
+          ],
+          [
+            2,
+            35
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      }
+    },
+    "moving_phases": {
+      "left_sweeps": {
+        "fresh_stick_changes": 2111,
+        "changes_per_second": 105.55,
+        "median_ms": 2.7496,
+        "p95_ms": 11.7506
+      },
+      "right_sweeps": {
+        "fresh_stick_changes": 2973,
+        "changes_per_second": 148.65,
+        "median_ms": 2.7504,
+        "p95_ms": 10.7503
+      },
+      "circles": {
+        "fresh_stick_changes": 7903,
+        "changes_per_second": 395.15,
+        "median_ms": 2.4997,
+        "p95_ms": 4.0003
+      }
+    }
+  },
+  "limitations": "Distinct output codes do not establish ADC bit depth or sensor accuracy. Changed-state rates depend on movement, host sampling and scheduling; they are not physical latency or unconditional polling-rate measurements.",
+  "windows": {
+    "rows": 119982,
+    "axes": {
+      "lx": {
+        "unique": 255,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            253
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "ly": {
+        "unique": 256,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            255
+          ]
+        ]
+      },
+      "rx": {
+        "unique": 255,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            253
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "ry": {
+        "unique": 256,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            255
+          ]
+        ]
+      },
+      "lt": {
+        "unique": 254,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            251
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "rt": {
+        "unique": 254,
+        "min": 0,
+        "max": 255,
+        "observed_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            251
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    "moving_phases": {
+      "left_sweeps": {
+        "fresh_stick_changes": 2838,
+        "changes_per_second": 141.9,
+        "median_ms": 1.9981,
+        "p95_ms": 9.0031
+      },
+      "right_sweeps": {
+        "fresh_stick_changes": 3840,
+        "changes_per_second": 192.0,
+        "median_ms": 2.0019,
+        "p95_ms": 8.9964
+      },
+      "circles": {
+        "fresh_stick_changes": 13169,
+        "changes_per_second": 658.45,
+        "median_ms": 1.0064,
+        "p95_ms": 2.9995
+      }
+    }
+  },
+  "hid_report_arrivals": {
+    "reports": 119982,
+    "observed_hz": 1000.0254288394066,
+    "median_ms": 0.9996,
+    "p95_ms": 1.0321
+  },
+  "basic_quality_pass": true,
+  "focus_validation": null,
+  "moving_phase_comparison_eligible": true
+}

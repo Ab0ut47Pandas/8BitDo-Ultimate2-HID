@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "component": "controller",
+      "version": "1.10",
+      "source": "https://support.8bitdo.cn/bd-uploads/files/2026-05/dce4031137ac325384afbc6c3ba2f269.dat",
+      "bytes": 145436,
+      "sha256": "968edee528c23d56e2059288f90c109fa5135f060de5b403e72d0b6c50f5eb87",
+      "catalog_type": 94
+    },
+    {
+      "component": "controller",
+      "version": "1.09",
+      "source": "https://support.8bitdo.cn/bd-uploads/files/2026-01/f49da7b0ff8bb0747c17cd624866216b.dat",
+      "bytes": 145436,
+      "sha256": "f754df15d0a3fde833f231c7d9d585490e22adfe9145a8dc1b7c85ab5515cbc1",
+      "catalog_type": 94
+    },
+    {
+      "component": "receiver",
+      "version": "1.06",
+      "source": "https://support.8bitdo.cn/bd-uploads/files/2025-09/7607115e6716732ae948b19514560cfe.dat",
+      "bytes": 40476,
+      "sha256": "1018a299f3662098fcd7d2a71789d1290bb7603dd1998fe03759c5643cd05401",
+      "catalog_type": 95
+    },
+    {
+      "component": "receiver",
+      "version": "1.04",
+      "source": "https://support.8bitdo.cn/bd-uploads/files/old/d8b942df-1d27-4aa4-b827-ca98be108a82.dat",
+      "bytes": 40476,
+      "sha256": "8fd901304cd8366a4a1551b04fe57ef0f09d09c7a3c08594266e20cd4a87b0fb",
+      "catalog_type": 95
+    }
+  ]
+}

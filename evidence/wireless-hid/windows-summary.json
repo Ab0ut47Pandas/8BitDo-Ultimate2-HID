@@ -1,0 +1,13 @@
+{
+  "source": "hid",
+  "rows": 119982,
+  "sampler_calls": 0,
+  "qpc_frequency": 10000000,
+  "capture_start_qpc": 223813,
+  "vid_pid": "2dc8:6012",
+  "first_qpc": 228410,
+  "last_qpc": 1200007901,
+  "outcome": "finished",
+  "capture_end_qpc": 1200010334,
+  "capture_elapsed_seconds": 119.9786521
+}

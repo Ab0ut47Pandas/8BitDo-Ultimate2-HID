@@ -1,0 +1,65 @@
+[
+  {
+    "file": "evidence/receiver-motion.csv.gz",
+    "rows": 45252,
+    "sha256": "5108390412216b1cfea7c269a92bba13496ef2effbcf58f8fe3be94ca4ea3391",
+    "source_sha256": "4c7c304e85cc2811b2178527b29e0250f8325434e9ed4f5db735347d74f03716",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/wireless-xinput/steam-output.csv.gz",
+    "rows": 18579,
+    "sha256": "c6b2e4e7a141e2ad4284cb83b7cb7df1f3c0dbf7b50d853588300ee7f8d5fa1d",
+    "source_sha256": "35c6089b237031bf340a9e3aed84ce662e2e21aceeafc6a142d6aa99ba91a8e8",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/wireless-xinput/windows-xinput.csv.gz",
+    "rows": 56225,
+    "sha256": "6cab422f8f5cb9235146f069fbad3b6ea38a6f53e445266fae10294bd4ff8f4b",
+    "source_sha256": "09ec0f639757ebd7b0cd8e7fd0be645fe9fe53544c9b9441bc0c6e076154b58e",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/wired-xinput/steam-output.csv.gz",
+    "rows": 20990,
+    "sha256": "8be74cd9383136aa00a57708fbfd4f24ba8966b19125214b8cdc8c415d8dae49",
+    "source_sha256": "71f2815fe77a7eab70fb0f3b902039129680a054c379f2b490229fef4fb5cc96",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/wired-xinput/windows-xinput.csv.gz",
+    "rows": 59201,
+    "sha256": "affafefe691b257eba07fb0e2571e20ff74a1266be8bbf8422a4a4fb7861f58c",
+    "source_sha256": "be16d0478c9f66fe6586ee57fa3e33f5537ca3b2c698c3bbf59c3bec93077648",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/wireless-hid/steam-output.csv.gz",
+    "rows": 14246,
+    "sha256": "757f450decbf82f80e5829454640e585da2dc5b25ba4ce151bb69fd402deaf7b",
+    "source_sha256": "46f021fa76cd43aff5e49209cd1f7f550a954f5f17f033d15edae93320c112e3",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/wireless-hid/windows-hid.csv.gz",
+    "rows": 119982,
+    "sha256": "589b219b0dec096d759f863bd01136890014bda87314d82ab33ef6b238efc47e",
+    "source_sha256": "db7aa8c2baa93fe909d6f14c3f78756e727c30c50e31cfa9c36a2b5cf1e2b719",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/direct-steam/steam-output.csv.gz",
+    "rows": 10347,
+    "sha256": "b569f65e3a8029c99c8a0820b3aca5da068d94ee536c937e6d17b661e098d9bc",
+    "source_sha256": "7d7b3d5077a2dbd5cf167e1d61c37a9ff8acea5a473d3d7669f8e372128d4bd2",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  },
+  {
+    "file": "evidence/direct-steam/windows-hid.csv.gz",
+    "rows": 59969,
+    "sha256": "568def072b81b932d1fcdab525573215400635e5e65070fc36cee66cb9b6f587",
+    "source_sha256": "57276790d8b32d36fdb7091bd19894baa1deede7877fc0154385895d0f515051",
+    "transformation": "QPC ticks relative to session start; CSV LF; gzip mtime 0."
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "condition": "hid-steam-patch",
+  "start_qpc": 0,
+  "stop_qpc": 600000000,
+  "qpc_frequency": 10000000,
+  "repetition": 1
+}

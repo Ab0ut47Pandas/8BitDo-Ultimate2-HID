@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-24",
+  "supported_inputs_only": true,
+  "receiver_output_matches_tested_sha256": true,
+  "steam_output_matches_tested_sha256": true,
+  "receiver_model": {
+    "passed": true,
+    "exhaustive_cases": 262144,
+    "coupled_random_cases": 10000,
+    "total_cases": 272144,
+    "seconds": 7.65599999999904,
+    "hardware_io": false
+  },
+  "native_parser": {
+    "passed": true,
+    "fallback_cases": 4096,
+    "fixture_rows": 45252,
+    "exhaustive_fine_cases": 262144,
+    "other_pid_fallback_cases": 256,
+    "stock_replay_sha256": "000c2d5250ef60e8c39471fad6b834abc987b901d90b5d8bd0ba6cfd424d2b71"
+  },
+  "capture_export": {
+    "compressed_captures_verified": 9,
+    "capture_rows": 404791,
+    "unsupported_receiver_input_refused": true,
+    "corrupt_application_refused": true,
+    "raw_timestamps_normalized": true,
+    "hardware_io": false
+  },
+  "installer_fixture": {
+    "powershell": "5.1.26100.9711",
+    "running_steam_refused": true,
+    "fixture_install_verified": true,
+    "fixture_restore_verified": true,
+    "unknown_build_refused": true,
+    "live_steam_changed": false
+  },
+  "paired_analysis_matches_original": true,
+  "three_baseline_axis_results_match_original": true,
+  "measurement_build": {
+    "succeeded": true,
+    "warnings": 0,
+    "errors": 0
+  },
+  "public_file_audit_passed": true,
+  "live_steam_modified_during_export": false,
+  "hardware_written_during_export": false
+}

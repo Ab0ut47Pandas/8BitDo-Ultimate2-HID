@@ -1,0 +1,13 @@
+{
+  "source": "xinput",
+  "rows": 56225,
+  "sampler_calls": 211268,
+  "qpc_frequency": 10000000,
+  "capture_start_qpc": 308132,
+  "slot": 0,
+  "first_qpc": 318427,
+  "last_qpc": 1199989795,
+  "outcome": "finished",
+  "capture_end_qpc": 1200002385,
+  "capture_elapsed_seconds": 119.9694253
+}

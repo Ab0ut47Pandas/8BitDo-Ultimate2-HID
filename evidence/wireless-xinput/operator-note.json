@@ -1,0 +1,6 @@
+{
+  "corrected_condition": "xinput-wireless",
+  "corrected_repetition": 1,
+  "connection_evidence": "Connection corrected using saved USB history; original request labels preserved.",
+  "raw_evidence_preserved": true
+}

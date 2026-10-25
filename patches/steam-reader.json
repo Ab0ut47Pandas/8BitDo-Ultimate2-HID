@@ -1,0 +1,37 @@
+{
+  "original_sha256": "e8656a70d57eb5cfa5e20a4c96c45f7f72325a3a109135e919d033f233fa3fb7",
+  "candidate_sha256": "55a6d7993ad945fa26ee30b046d553e3c1d7c7b8f97c064e491158af1aad30df",
+  "bytes": 3093144,
+  "changed_bytes": 296,
+  "axis_rva_start": "0xdec5b",
+  "axis_rva_end": "0xded85",
+  "axis_file_offset": "0xde05b",
+  "reserved_patch_bytes": 298,
+  "encoded_code_and_table_bytes": 258,
+  "labels": {
+    "x_center_0": "0xdecb9",
+    "x_center_2": "0xdeccf",
+    "guard_done": "0xdece2",
+    "axis_loop": "0xdece4",
+    "fine_y": "0xded06",
+    "legacy": "0xded0d",
+    "legacy_scale": "0xded1a",
+    "send": "0xded3e",
+    "fine_offsets": "0xded59"
+  },
+  "checksum_file_offset": "0x160",
+  "guards": [
+    "VID 2DC8 / PID 6012",
+    "report length 34",
+    "report ID 1",
+    "nonzero fine extension",
+    "all four fine words match original public high-byte conversion"
+  ],
+  "preserved": [
+    "original float legacy scaling",
+    "buttons/triggers/battery/sensor code",
+    "PE size/sections/exports/imports/relocations/unwind tables"
+  ],
+  "installed_steam_modified": false,
+  "physical_firmware_modified": false
+}

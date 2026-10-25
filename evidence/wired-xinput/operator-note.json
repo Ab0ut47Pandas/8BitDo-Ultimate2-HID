@@ -1,0 +1,9 @@
+{
+  "include_in_baseline": true,
+  "note": "User reports one right-paddle press at approximately 80 seconds, during the trigger phase. Account for this when interpreting button/trigger activity.",
+  "approximate_seconds": 80,
+  "corrected_condition": "xinput-wired",
+  "corrected_repetition": 1,
+  "connection_evidence": "Connection corrected using saved USB history; original request labels preserved.",
+  "raw_evidence_preserved": true
+}

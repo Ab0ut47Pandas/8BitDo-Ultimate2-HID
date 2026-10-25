@@ -1,0 +1,7 @@
+{
+  "moving_phases_foreground_verified": true,
+  "approximate_first_focus_loss_seconds": 111,
+  "affected_phase": "final idle, 105-120 seconds",
+  "evidence": "First focus loss occurred in the final idle phase after the movement phases completed.",
+  "restriction": "Exclude the final idle section from foreground-sensitive comparisons; retain the aggregate focus-quality flag."
+}

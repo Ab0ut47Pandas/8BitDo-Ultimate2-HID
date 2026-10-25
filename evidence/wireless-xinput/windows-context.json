@@ -1,0 +1,256 @@
+{
+  "outside_steam_xinput_slots": [
+    0
+  ],
+  "devices": [
+    {
+      "vid": "2dc8",
+      "pid": "310b",
+      "bcd_device": 276,
+      "product": "8BitDo Ultimate 2 Wireless Controller for PC",
+      "caps_status": "00110000",
+      "caps": {
+        "Usage": 1,
+        "UsagePage": 65402,
+        "InputReportByteLength": 64,
+        "OutputReportByteLength": 64,
+        "FeatureReportByteLength": 0,
+        "NumberLinkCollectionNodes": 2,
+        "NumberInputButtonCaps": 0,
+        "NumberInputValueCaps": 1,
+        "NumberInputDataIndices": 1,
+        "NumberOutputButtonCaps": 0,
+        "NumberOutputValueCaps": 1,
+        "NumberOutputDataIndices": 1,
+        "NumberFeatureButtonCaps": 0,
+        "NumberFeatureValueCaps": 0,
+        "NumberFeatureDataIndices": 0
+      },
+      "value_caps": [
+        {
+          "usage_page": 65402,
+          "report_id": 2,
+          "bit_size": 8,
+          "report_count": 63,
+          "logical_min": 0,
+          "logical_max": -1,
+          "usage_min": 3,
+          "usage_max": 3,
+          "is_range": false
+        }
+      ]
+    },
+    {
+      "vid": "2dc8",
+      "pid": "310b",
+      "bcd_device": 276,
+      "product": "8BitDo Ultimate 2 Wireless Controller for PC",
+      "caps_status": "00110000",
+      "caps": {
+        "Usage": 6,
+        "UsagePage": 1,
+        "InputReportByteLength": 9,
+        "OutputReportByteLength": 2,
+        "FeatureReportByteLength": 0,
+        "NumberLinkCollectionNodes": 1,
+        "NumberInputButtonCaps": 2,
+        "NumberInputValueCaps": 0,
+        "NumberInputDataIndices": 264,
+        "NumberOutputButtonCaps": 1,
+        "NumberOutputValueCaps": 0,
+        "NumberOutputDataIndices": 5,
+        "NumberFeatureButtonCaps": 0,
+        "NumberFeatureValueCaps": 0,
+        "NumberFeatureDataIndices": 0
+      },
+      "value_caps": []
+    },
+    {
+      "vid": "2dc8",
+      "pid": "310b",
+      "bcd_device": 276,
+      "product": "8BitDo Ultimate 2 Wireless Controller for PC",
+      "caps_status": "00110000",
+      "caps": {
+        "Usage": 1,
+        "UsagePage": 12,
+        "InputReportByteLength": 3,
+        "OutputReportByteLength": 0,
+        "FeatureReportByteLength": 0,
+        "NumberLinkCollectionNodes": 1,
+        "NumberInputButtonCaps": 1,
+        "NumberInputValueCaps": 0,
+        "NumberInputDataIndices": 1085,
+        "NumberOutputButtonCaps": 0,
+        "NumberOutputValueCaps": 0,
+        "NumberOutputDataIndices": 0,
+        "NumberFeatureButtonCaps": 0,
+        "NumberFeatureValueCaps": 0,
+        "NumberFeatureDataIndices": 0
+      },
+      "value_caps": []
+    },
+    {
+      "vid": "2dc8",
+      "pid": "310b",
+      "bcd_device": 276,
+      "product": "8BitDo Ultimate 2 Wireless Controller for PC",
+      "caps_status": "00110000",
+      "caps": {
+        "Usage": 2,
+        "UsagePage": 1,
+        "InputReportByteLength": 8,
+        "OutputReportByteLength": 0,
+        "FeatureReportByteLength": 0,
+        "NumberLinkCollectionNodes": 2,
+        "NumberInputButtonCaps": 1,
+        "NumberInputValueCaps": 4,
+        "NumberInputDataIndices": 7,
+        "NumberOutputButtonCaps": 0,
+        "NumberOutputValueCaps": 0,
+        "NumberOutputDataIndices": 0,
+        "NumberFeatureButtonCaps": 0,
+        "NumberFeatureValueCaps": 0,
+        "NumberFeatureDataIndices": 0
+      },
+      "value_caps": [
+        {
+          "usage_page": 1,
+          "report_id": 3,
+          "bit_size": 16,
+          "report_count": 1,
+          "logical_min": -32768,
+          "logical_max": 32767,
+          "usage_min": 49,
+          "usage_max": 49,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 3,
+          "bit_size": 16,
+          "report_count": 1,
+          "logical_min": -32768,
+          "logical_max": 32767,
+          "usage_min": 48,
+          "usage_max": 48,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 3,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": -127,
+          "logical_max": 127,
+          "usage_min": 56,
+          "usage_max": 56,
+          "is_range": false
+        },
+        {
+          "usage_page": 12,
+          "report_id": 3,
+          "bit_size": 8,
+          "report_count": 1,
+          "logical_min": -127,
+          "logical_max": 127,
+          "usage_min": 568,
+          "usage_max": 568,
+          "is_range": false
+        }
+      ]
+    },
+    {
+      "vid": "2dc8",
+      "pid": "310b",
+      "bcd_device": 0,
+      "product": "Controller (8BitDo Ultimate 2 Wireless Controller for PC)",
+      "caps_status": "00110000",
+      "caps": {
+        "Usage": 5,
+        "UsagePage": 1,
+        "InputReportByteLength": 15,
+        "OutputReportByteLength": 0,
+        "FeatureReportByteLength": 0,
+        "NumberLinkCollectionNodes": 4,
+        "NumberInputButtonCaps": 1,
+        "NumberInputValueCaps": 6,
+        "NumberInputDataIndices": 16,
+        "NumberOutputButtonCaps": 0,
+        "NumberOutputValueCaps": 0,
+        "NumberOutputDataIndices": 0,
+        "NumberFeatureButtonCaps": 0,
+        "NumberFeatureValueCaps": 0,
+        "NumberFeatureDataIndices": 0
+      },
+      "value_caps": [
+        {
+          "usage_page": 1,
+          "report_id": 0,
+          "bit_size": 16,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": -1,
+          "usage_min": 49,
+          "usage_max": 49,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 0,
+          "bit_size": 16,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": -1,
+          "usage_min": 48,
+          "usage_max": 48,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 0,
+          "bit_size": 16,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": -1,
+          "usage_min": 52,
+          "usage_max": 52,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 0,
+          "bit_size": 16,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": -1,
+          "usage_min": 51,
+          "usage_max": 51,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 0,
+          "bit_size": 16,
+          "report_count": 1,
+          "logical_min": 0,
+          "logical_max": -1,
+          "usage_min": 50,
+          "usage_max": 50,
+          "is_range": false
+        },
+        {
+          "usage_page": 1,
+          "report_id": 0,
+          "bit_size": 4,
+          "report_count": 1,
+          "logical_min": 1,
+          "logical_max": 8,
+          "usage_min": 57,
+          "usage_max": 57,
+          "is_range": false
+        }
+      ]
+    }
+  ]
+}

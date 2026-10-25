@@ -1,0 +1,531 @@
+{
+  "condition": "hid-steam-patch",
+  "seconds": 60.0002427,
+  "foreground_fraction": 1.0,
+  "physical_reports": 59969,
+  "physical_arrivals": {
+    "events": 59969,
+    "observed_hz": 1000.0250122984917,
+    "median_interval_ms": 0.9993,
+    "p95_interval_ms": 1.0439
+  },
+  "legacy_extension_mismatches": 0,
+  "steam_slot": 0,
+  "disconnects": 0,
+  "outside_steam_xinput_slots": [],
+  "axes": {
+    "lx": {
+      "legacy": {
+        "unique": 255,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            253
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "physical_fine": {
+        "unique": 10658,
+        "min": -32768,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            2151
+          ],
+          [
+            3,
+            1387
+          ],
+          [
+            2,
+            1375
+          ],
+          [
+            4,
+            1010
+          ],
+          [
+            5,
+            660
+          ]
+        ]
+      },
+      "steam_output": {
+        "unique": 6554,
+        "min": -32767,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            978
+          ],
+          [
+            2,
+            635
+          ],
+          [
+            3,
+            613
+          ],
+          [
+            4,
+            513
+          ],
+          [
+            7,
+            365
+          ]
+        ]
+      }
+    },
+    "ly": {
+      "legacy": {
+        "unique": 256,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            255
+          ]
+        ]
+      },
+      "physical_fine": {
+        "unique": 10656,
+        "min": -32768,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            2114
+          ],
+          [
+            2,
+            1453
+          ],
+          [
+            3,
+            1314
+          ],
+          [
+            4,
+            972
+          ],
+          [
+            7,
+            717
+          ]
+        ]
+      },
+      "steam_output": {
+        "unique": 6469,
+        "min": -32767,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            899
+          ],
+          [
+            2,
+            679
+          ],
+          [
+            3,
+            578
+          ],
+          [
+            4,
+            445
+          ],
+          [
+            7,
+            423
+          ]
+        ]
+      }
+    },
+    "rx": {
+      "legacy": {
+        "unique": 255,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            253
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "physical_fine": {
+        "unique": 11506,
+        "min": -32768,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            2476
+          ],
+          [
+            2,
+            1611
+          ],
+          [
+            3,
+            1493
+          ],
+          [
+            4,
+            1073
+          ],
+          [
+            6,
+            725
+          ]
+        ]
+      },
+      "steam_output": {
+        "unique": 6910,
+        "min": -32767,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            1031
+          ],
+          [
+            2,
+            735
+          ],
+          [
+            3,
+            693
+          ],
+          [
+            4,
+            540
+          ],
+          [
+            6,
+            381
+          ]
+        ]
+      }
+    },
+    "ry": {
+      "legacy": {
+        "unique": 256,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            255
+          ]
+        ]
+      },
+      "physical_fine": {
+        "unique": 11736,
+        "min": -32768,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            2635
+          ],
+          [
+            2,
+            1729
+          ],
+          [
+            3,
+            1510
+          ],
+          [
+            4,
+            1012
+          ],
+          [
+            6,
+            738
+          ]
+        ]
+      },
+      "steam_output": {
+        "unique": 7120,
+        "min": -32767,
+        "max": 32767,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            1150
+          ],
+          [
+            2,
+            788
+          ],
+          [
+            3,
+            706
+          ],
+          [
+            4,
+            540
+          ],
+          [
+            6,
+            409
+          ]
+        ]
+      }
+    }
+  },
+  "triggers": {
+    "lt": {
+      "physical": {
+        "unique": 229,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            201
+          ],
+          [
+            2,
+            27
+          ]
+        ]
+      },
+      "steam_output": {
+        "unique": 155,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            89
+          ],
+          [
+            2,
+            41
+          ],
+          [
+            3,
+            17
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    "rt": {
+      "physical": {
+        "unique": 247,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            237
+          ],
+          [
+            2,
+            9
+          ]
+        ]
+      },
+      "steam_output": {
+        "unique": 193,
+        "min": 0,
+        "max": 255,
+        "adjacent_step_gcd": 1,
+        "common_adjacent_steps": [
+          [
+            1,
+            150
+          ],
+          [
+            2,
+            27
+          ],
+          [
+            3,
+            13
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "extra_buttons": {
+    "PL": {
+      "expected_mask": "0x40",
+      "presses": [
+        {
+          "seconds": 43.8694786,
+          "matched": true,
+          "output_mask": "0x40"
+        },
+        {
+          "seconds": 48.9673532,
+          "matched": true,
+          "output_mask": "0x40"
+        }
+      ]
+    },
+    "PR": {
+      "expected_mask": "0x80",
+      "presses": [
+        {
+          "seconds": 44.5544702,
+          "matched": true,
+          "output_mask": "0x80"
+        },
+        {
+          "seconds": 51.6522869,
+          "matched": true,
+          "output_mask": "0x80"
+        }
+      ]
+    },
+    "L4": {
+      "expected_mask": "0x20",
+      "presses": [
+        {
+          "seconds": 45.1025071,
+          "matched": true,
+          "output_mask": "0x20"
+        },
+        {
+          "seconds": 53.6882378,
+          "matched": true,
+          "output_mask": "0x20"
+        }
+      ]
+    },
+    "R4": {
+      "expected_mask": "0x10",
+      "presses": [
+        {
+          "seconds": 45.6124602,
+          "matched": true,
+          "output_mask": "0x10"
+        },
+        {
+          "seconds": 55.2171958,
+          "matched": true,
+          "output_mask": "0x10"
+        }
+      ]
+    }
+  },
+  "face_button_checks": {
+    "A": [
+      {
+        "seconds": 46.6974027,
+        "matched": true
+      }
+    ],
+    "B": [
+      {
+        "seconds": 47.7573824,
+        "matched": true
+      }
+    ]
+  },
+  "axis_sign_check": {
+    "lx": {
+      "pairs": 4580,
+      "same_sign_fraction": 1.0,
+      "note": "Approximate 2 ms alignment; orientation check, not a latency measurement."
+    },
+    "ly": {
+      "pairs": 4948,
+      "same_sign_fraction": 0.0,
+      "note": "Approximate 2 ms alignment; orientation check, not a latency measurement."
+    },
+    "rx": {
+      "pairs": 4727,
+      "same_sign_fraction": 1.0,
+      "note": "Approximate 2 ms alignment; orientation check, not a latency measurement."
+    },
+    "ry": {
+      "pairs": 4644,
+      "same_sign_fraction": 0.0,
+      "note": "Approximate 2 ms alignment; orientation check, not a latency measurement."
+    }
+  },
+  "moving_phases": {
+    "sweeps": {
+      "physical_changed_states": {
+        "events": 5466,
+        "observed_hz": 460.80425562215976,
+        "median_interval_ms": 1.0043,
+        "p95_interval_ms": 4.9039
+      },
+      "steam_changed_states": {
+        "events": 3168,
+        "observed_hz": 267.0545577198752,
+        "median_interval_ms": 2.5,
+        "p95_interval_ms": 7.0
+      }
+    },
+    "circles": {
+      "physical_changed_states": {
+        "events": 11778,
+        "observed_hz": 788.4602202068904,
+        "median_interval_ms": 1.0018,
+        "p95_interval_ms": 2.0085
+      },
+      "steam_changed_states": {
+        "events": 6330,
+        "observed_hz": 423.80144728763423,
+        "median_interval_ms": 2.2501,
+        "p95_interval_ms": 3.3586
+      }
+    }
+  },
+  "fine_output_confirmed": true,
+  "all_extra_buttons_confirmed": true,
+  "limits": "Distinct codes are observed transport/output values, not sensor accuracy. Arrival/changed-state rates are not physical latency. Game-facing data is from Steam-launched diagnostic process, not a measurement of Witcher frame input."
+}

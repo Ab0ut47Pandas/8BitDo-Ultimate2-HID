@@ -1,0 +1,131 @@
+{
+  "kind": "candidate",
+  "physical_backends_disabled": true,
+  "private_virtual_only": true,
+  "passed": true,
+  "smoke_samples": [
+    {
+      "source": 0,
+      "observed": [
+        32767,
+        -32768,
+        32767,
+        -32768,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 1,
+      "observed": [
+        32766,
+        -32767,
+        32766,
+        -32767,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 2048,
+      "observed": [
+        30719,
+        -30720,
+        30719,
+        -30720,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 2049,
+      "observed": [
+        30718,
+        -30719,
+        30718,
+        -30719,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 32766,
+      "observed": [
+        1,
+        -2,
+        1,
+        -2,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 32767,
+      "observed": [
+        0,
+        -1,
+        0,
+        -1,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 32768,
+      "observed": [
+        -1,
+        0,
+        -1,
+        0,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 32769,
+      "observed": [
+        -2,
+        1,
+        -2,
+        1,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 65534,
+      "observed": [
+        -32767,
+        32766,
+        -32767,
+        32766,
+        -32768,
+        -32768
+      ]
+    },
+    {
+      "source": 65535,
+      "observed": [
+        -32768,
+        32767,
+        -32768,
+        32767,
+        -32768,
+        -32768
+      ]
+    }
+  ],
+  "fallback_cases": 4096,
+  "fixture_rows": 45252,
+  "fine_unique_axis_values": [
+    11848,
+    11966,
+    14034,
+    12980
+  ],
+  "replay_output_sha256": "1a3a3fbc60c7128c29b3353b651af40cccd6def7effc9c31650ae38cf6fa7dd8",
+  "stock_replay_sha256": "000c2d5250ef60e8c39471fad6b834abc987b901d90b5d8bd0ba6cfd424d2b71",
+  "exhaustive_fine_cases": 262144,
+  "other_pid_fallback_cases": 256,
+  "seconds": 3.5401611999986926
+}

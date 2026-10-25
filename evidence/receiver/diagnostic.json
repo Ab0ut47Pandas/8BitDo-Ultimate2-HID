@@ -1,0 +1,16 @@
+{
+  "action": "diagnostic",
+  "target_sectors": [
+    "0xb000",
+    "0xe000"
+  ],
+  "write_attempted": true,
+  "operations_completed": 194,
+  "normal_return_verified": true,
+  "verified_sectors": [
+    "0xb000",
+    "0xe000"
+  ],
+  "application_readback_verified": true,
+  "application_sha256": "7f47efe7dd3bb08f648a7602ec600a7d6675cb377bbfc3bf8925bbbccfa63e01"
+}

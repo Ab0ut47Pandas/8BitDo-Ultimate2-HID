@@ -1,0 +1,7 @@
+{
+  "condition": "hid-wireless",
+  "start_qpc": 0,
+  "stop_qpc": 1200000000,
+  "qpc_frequency": 10000000,
+  "repetition": 1
+}
