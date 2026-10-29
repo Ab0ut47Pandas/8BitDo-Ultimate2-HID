@@ -11,7 +11,7 @@ The source catalog and hashes were recorded during the investigation. Download l
 | Receiver | 1.06 | 40,476 | [8BitDo download](https://support.8bitdo.cn/bd-uploads/files/2025-09/7607115e6716732ae948b19514560cfe.dat) |
 | Receiver | 1.04 | 40,476 | [8BitDo download](https://support.8bitdo.cn/bd-uploads/files/old/d8b942df-1d27-4aa4-b827-ca98be108a82.dat) |
 
-Full hashes are in [firmware-sources.json](../evidence/firmware-sources.json). The receiver generator supports only the recorded 1.06 file. The other images were inspection references.
+Full hashes are in [firmware-sources.json](../evidence/firmware-sources.json). The receiver generator supports only the recorded 1.06 file; the controller startup generator supports only the recorded controller 1.10 file. The other images were inspection references.
 
 ## Public implementation references
 

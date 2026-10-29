@@ -57,7 +57,7 @@ Outer `.dat` integrity/updater acceptance was not resolved. `patch_receiver.py` 
 
 ## Physical write procedure tested
 
-The receiver's application supports a software transition to its boot interface; the tested receiver has no user-accessible pairing/update button. Recovery/boot identity was `2DC8:6013`. The reviewed raw boot procedure erased and programmed only two 4 KB application sectors, `0xB000` and `0xE000`.
+The receiver's application supports a software transition to its boot interface; the tested receiver has no user-accessible pairing/update button. Its normal vendor interface was `2DC8:6013`; boot mode was `2DC8:3208`. The reviewed raw boot procedure erased and programmed only two 4 KB application sectors, `0xB000` and `0xE000`.
 
 Original sectors were rewritten first, read back, and compared. The full application readback matched stock and the receiver restarted. The diagnostic was then written with the same sector boundaries. Both sectors and the full application matched the prepared output on readback. Normal native HID, wireless XInput and a receiver/controller power cycle were checked afterward.
 

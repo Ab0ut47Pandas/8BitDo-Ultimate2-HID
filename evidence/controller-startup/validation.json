@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29",
+  "offline_unittests_passed": 4,
+  "selection_cases": 2048,
+  "generated_payload_sha256": "08eb82611760db9200b2d435138c3b0e565a70830a4934f22ce577773f3816a1",
+  "generated_program_matches_physical_readback": true,
+  "compared_program_bytes": 96872,
+  "relative_document_links_valid": true,
+  "selected_public_files_checked_for_local_identifiers": 11,
+  "hardware_io_during_publication": false
+}

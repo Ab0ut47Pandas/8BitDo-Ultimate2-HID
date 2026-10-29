@@ -1,0 +1,114 @@
+{
+  "test_date": "2026-10-29",
+  "hardware_coverage": "One Ultimate 2 Wireless Controller for PC and its receiver",
+  "controller_reported_version": "1.10",
+  "receiver_reported_version": "1.06",
+  "receiver_state": "Previously installed native HID precision extension",
+  "source_input": "Exact stock controller 1.10 file recorded in firmware-sources.json",
+  "backups": {
+    "two_passes_identical": true,
+    "flash_ranges": [
+      "0..0x1ffff",
+      "0x70000..0x7ffff"
+    ],
+    "complete_chip_backup": false,
+    "installed_program_matched_stock": true,
+    "compared_program_bytes": 96872
+  },
+  "software_recovery": {
+    "entry_read_restart_passed": true,
+    "boot_vid_pid": "2dc8:3208",
+    "normal_usb_vid_pid": "2dc8:310b",
+    "hardware_button_entry_tested": false
+  },
+  "write_runs": {
+    "stock": {
+      "target_sectors": [
+        "0x10000",
+        "0x1c000"
+      ],
+      "operations_completed": 194,
+      "normal_return_verified": true,
+      "verified_sectors": [
+        "0x10000",
+        "0x1c000"
+      ],
+      "application_readback_verified": true,
+      "application_sha256": "d7fdb52f7e5a2f632eb850358c674833e73324bfdb426927e4cadfd71fc0ced2"
+    },
+    "modified": {
+      "target_sectors": [
+        "0x10000",
+        "0x1c000"
+      ],
+      "operations_completed": 194,
+      "normal_return_verified": true,
+      "verified_sectors": [
+        "0x10000",
+        "0x1c000"
+      ],
+      "application_readback_verified": true,
+      "application_sha256": "14694a61ab1fd6fe525622e71b7c37fc4e1cfaca22e77c79d4e15eeafff6db25"
+    }
+  },
+  "postflight": {
+    "lower_matches_candidate": true,
+    "bootloader_unchanged": true,
+    "upper_storage_unchanged": true,
+    "exactly_expected_27_differences": true,
+    "integrity": {
+      "program_bytes": 96868,
+      "crc_offset_payload": 96864,
+      "byte_sum_offset_payload": 96868,
+      "stored_crc": 1418488626,
+      "calculated_crc": 1418488626,
+      "crc_valid": true,
+      "stored_byte_sum": 7708928,
+      "calculated_byte_sum": 7708928,
+      "byte_sum_valid": true
+    }
+  },
+  "postflight_lower_flash_range": "0..0x1ffff",
+  "startup_tests": [
+    {
+      "action": "Home only after full shutdown and five-second wait",
+      "mode": "Native HID",
+      "windows_vid_pid": "2DC8:6012",
+      "evidence": "Windows enumeration and owner observation"
+    },
+    {
+      "action": "B + Home after full shutdown and five-second wait",
+      "mode": "XInput",
+      "windows_vid_pid": "2DC8:310B",
+      "evidence": "Windows enumeration and owner observation"
+    }
+  ],
+  "dock_tests": [
+    {
+      "before": "XInput",
+      "afterReported": "XInput",
+      "independentlyCaptured": false
+    },
+    {
+      "before": "HID",
+      "afterReported": "HID",
+      "independentlyCaptured": false
+    }
+  ],
+  "dock_evidence": "Owner observations only; neither dock transition independently captured",
+  "later_dock_snapshot": "Idle receiver 2dc8:6013; cause not established",
+  "physical_modified_to_stock_rollback_tested": false,
+  "offline_selection_cases": 2048,
+  "offline_sector_checks": [
+    "stock rewrite",
+    "candidate application",
+    "stock restoration",
+    "invalid address",
+    "bad CRC16",
+    "inconsistent length",
+    "short packet"
+  ],
+  "performance_remeasured_after_startup_patch": false,
+  "extended_gameplay_battery_sleep_receiver_power_cycle_pc_restart_tested": false,
+  "receiver_or_steam_written_during_startup_trial": false
+}

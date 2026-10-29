@@ -1,8 +1,8 @@
-# 8BitDo Ultimate 2 Wireless: native HID stick precision
+# 8BitDo Ultimate 2 Wireless: native HID precision and startup mode
 
-Receiver firmware analysis, patches and Windows/Steam measurements for the **8BitDo Ultimate 2 Wireless Controller for PC** and its included 2.4 GHz receiver.
+Controller and receiver firmware patches, analysis and Windows/Steam measurements for the **8BitDo Ultimate 2 Wireless Controller for PC** and its included 2.4 GHz receiver.
 
-Test date: October 24, 2026. Hardware coverage: one controller/receiver pair, controller firmware **1.10**, receiver firmware **1.06**.
+Precision tests: October 24, 2026. Startup-mode tests: October 29, 2026. Hardware coverage: one controller/receiver pair, controller firmware **1.10**, receiver firmware **1.06**.
 
 ## Result
 
@@ -10,13 +10,28 @@ The stock receiver reduces four 16-bit source stick values to four 8-bit values 
 
 A receiver patch copies those source words into eight previously zero vendor bytes. It preserves the existing axes, buttons, triggers, descriptor, report length and device identity. A matching patch to Steam's local `SDL3.dll` reads the added words.
 
-The paired test confirmed fine stick values and four separately bound extra buttons through Steam Input, with the software bridge stopped and HidHide disabled. The controller's firmware was not changed.
+The paired precision test confirmed fine stick values and four separately bound extra buttons through Steam Input, with the software bridge stopped and HidHide disabled. That October 24 experiment did not change the controller firmware. The optional startup patch below was tested separately.
 
 ```text
 controller 1.10 -> patched receiver 1.06 -> patched Steam reader -> Steam Input -> game
 ```
 
 Both patches are required for this direct path. The receiver patch alone leaves Steam using the original 8-bit fields. An unmodified Steam installation on another PC will also use those fields.
+
+## Optional HID startup patch
+
+A controller 1.10 patch swaps the wireless startup selection:
+
+| Startup action | Result confirmed in Windows |
+| --- | --- |
+| Home alone after shutdown | Native HID, `2DC8:6012` |
+| B + Home after shutdown | XInput, `2DC8:310B` |
+
+The owner also tested dock/lift in both modes and reported that each retained its selected mode. Those dock transitions were not independently captured.
+
+The patch changes 21 code bytes and six integrity bytes across two controller application sectors. The version response remains 1.10. Startup selection does not require a bridge or a modified Steam reader; the fine-axis path above still requires the receiver and reader patches.
+
+[Startup patch, write verification and limits](docs/controller-startup.md). The generator below runs offline and accepts only the exact stock 1.10 file. No controller flasher, full firmware image or device backup is published.
 
 ## Measurements
 
@@ -49,7 +64,7 @@ Code counts depend on movement and sampling. They do not establish sensor accura
 
 | Component | Change | Scope |
 | --- | --- | --- |
-| Controller | None | Firmware remains 1.10 |
+| Controller, optional startup patch | 27 differing bytes, including integrity fields | Application sectors `0x10000` and `0x1C000`; still identifies as 1.10 |
 | Receiver | 43 differing bytes, including integrity fields | Application sectors `0xB000` and `0xE000`; still identifies as 1.06 |
 | Steam `SDL3.dll` | 296 differing bytes, including PE checksum | Existing 298-byte axis conversion region; exact original hash required |
 
@@ -58,6 +73,7 @@ The firmware version strings are unchanged. Identify a patched build by its hash
 ## Files
 
 - [Receiver changes and boot protocol](docs/receiver.md)
+- [Controller startup selection patch](docs/controller-startup.md)
 - [Native HID report layout](docs/report-format.md)
 - [Steam reader patch and local installation](docs/steam-reader.md)
 - [Test methods, results and limitations](docs/measurements.md)
@@ -76,14 +92,19 @@ python -m pip install -r requirements.txt
 
 python tools/patch_receiver.py --input inputs/ultimate2-wireless-receiver-v1.06.dat --output-dir artifacts/receiver
 
+python tools/patch_controller_startup.py --input inputs/ultimate2-wireless-controller-v1.10.dat --output-dir artifacts/controller-startup
+python tools/test_controller_startup.py
+
 python tools/build_steam_patch.py --input inputs/SDL3.dll --output-dir artifacts/steam
 python tools/test_steam_reader.py original --directory artifacts/steam
 python tools/test_steam_reader.py candidate --directory artifacts/steam
 ```
 
-The generators refuse inputs with a different SHA-256. They write to a separate output directory. They do not flash hardware or replace Steam files. Full manufacturer firmware, receiver backups and Steam DLLs are excluded from this repository. [Source URLs and hashes](docs/sources.md) identify the required inputs.
+The generators refuse inputs with a different SHA-256. They write to a separate output directory. They do not flash hardware or replace Steam files. Full manufacturer firmware, controller/receiver backups and Steam DLLs are excluded from this repository. [Source URLs and hashes](docs/sources.md) identify the required inputs.
 
 The receiver output is a raw application payload for flash base `0x5000`. It is not an OEM `.dat` update package. No general-purpose receiver flasher is supplied; the tested sector procedure and its limits are documented.
+
+The controller startup generator also writes raw application payloads, including an unmodified stock copy. Neither output is a complete device backup or an OEM update package. It does not write to the controller.
 
 ## Compatibility limits
 
@@ -92,3 +113,5 @@ Only the hardware and binary hashes recorded here were tested. The receiver sect
 Steam updates can replace its patched reader. The patch must be reviewed again for a different DLL hash. Rumble, motion controls, battery life and compatibility with other host software remain unverified. Existing game layouts were retained; the independent button test used a separate diagnostic layout.
 
 Receiver firmware writing can leave the receiver unusable. Preserve the original contents before writing and review the recovery limits before attempting a hardware change.
+
+The controller startup patch was written and verified on one unit. A stock sector rewrite passed first. Recovery through the normal software command was tested; hardware-button recovery and recovery from an unusable application were not established. See [controller recovery limits](docs/recovery.md#controller).
